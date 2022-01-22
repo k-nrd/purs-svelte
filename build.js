@@ -24,7 +24,7 @@ esbuild
         watch: !isProd,
         sourcemap: isProd ? false : 'inline',
         plugins: [
-            sveltePlugin(),
+            sveltePlugin({ cache: false }),
             pursPlugin()
         ],
     })
