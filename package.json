@@ -1,5 +1,5 @@
 {
-  "main": "buildscript.js",
+  "main": "build.js",
   "scripts": {
     "build": "run-s spago:build esbuild:build",
     "dev": "run-p spago:dev esbuild:dev serve",
